@@ -1,0 +1,65 @@
+name: mandalorian
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  bloc_pattern: ^2.5.1
+  rxdart: ^0.23.1
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+   - assets/img/about.jpg
+   - assets/img/caradune.jpg
+   - assets/img/greefcarga.jpg
+   - assets/img/ig-11.jpg
+   - assets/img/kiull.jpeg
+   - assets/img/logo.png
+   - assets/img/manda.jpg
+  #  - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: CastIron
+      fonts:
+        - asset: assets/fonts/CastIron.otf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
